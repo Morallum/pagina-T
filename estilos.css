@@ -1,0 +1,179 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+h1 {
+font-size: 35px;
+font-family: Cambria;
+font-weight: lighter;
+}
+h2 {
+font-weight: bold;
+font-size: 17px;
+}
+
+header, section, footer, aside, nav, article, hgroup {
+display: block;
+}
+
+body {
+text-align: center;
+background: black;
+}
+
+.todo {
+background: #f0f3f4;
+width: 1200px;
+margin-top: 125px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+padding: 50px;
+border: 5px solid gray;
+}
+
+.inicio {
+border: 2px solid #4a235a;
+padding: 20px;
+margin-bottom: 12px;
+background: #d6eaf8;
+}
+
+
+.inicio h1{
+margin-bottom: 20px;
+}
+
+.inicio p{
+padding: 1px;
+text-align: left;
+}
+
+.inicio footer{
+padding: 1px;
+text-align: right;
+}
+
+.H {
+background: #d2b4de;
+border: 2px solid #4a235a;
+padding: 20px;
+}
+
+.menu{
+padding: 5px 15px;
+}
+
+.menu li{
+list-style: none; 
+border: 2px solid gray;
+padding: 5px;
+display: inline-block;
+font: bold 14px verdana;
+}
+
+.S {
+padding: 20px;
+border: 2px solid #1b4f72;
+width: 800px; 
+float: left;
+background:#d6eaf8;
+}
+
+.C {
+padding: 20px;
+width: 300px;
+border: 2px solid gray;
+float: right;
+background: #d6eaf8;
+}
+
+.C1 img{
+float: right;
+width: 342px;
+border: 1px solid white;
+}
+
+.C blockquote {
+margin-top: 20px;
+padding: 1px;
+margin-bottom: 20px;
+}
+
+.P {
+margin-top: 2000px;
+clear: both;
+padding: 20px:
+}
+
+time {
+color:   #212f3d;
+}
+
+article{
+background: #f0f3f4;
+border: 1px solid black;
+padding: 20px;
+margin-bottom: 15px;
+}
+
+article footer {
+text-align: right;
+margin-top: 20px;
+}
+
+article p{
+margin-top: 20px;
+}
+
+img {
+width: 200px;
+display: block;
+margin: 20px auto;
+}
+
+.radical {
+    position: relative;
+    font-size: 1.6em;
+    vertical-align: middle;
+}
+.n-root {
+    position: absolute;
+    top: -0.333em;
+    left: 0.333em;
+    font-size: 45%;
+}
+.radicand { 
+    padding: 0.25em 0.25em;
+    border-top: thin black solid;
+}
+
+.eq-c{
+margin-top: 20px;
+}
+
+.intsuma {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.intsuma > span {
+    display: block;
+    font-size: 70%;
+}
+.intsuma .lim-up {
+    margin-bottom: -1.0ex;
+}
+.intsuma .lim {
+    margin-top: -0.5ex;
+}
+.intsuma .sum {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.intsuma .sum-frac {
+    font-size: 1.5em;
+    font-weight: 100;
+}
